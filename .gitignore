@@ -14,7 +14,8 @@ db.sqlite3
 # Ignore media and static files
 media/
 static/
-
+basic_app/templates
+basic_app/static
 # Ignore virtual environment
 venv/
 
