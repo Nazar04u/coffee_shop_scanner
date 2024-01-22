@@ -20,12 +20,6 @@ class BlogView(View):
         return render(reguest, 'basic_app/blog.html', {"page_class": page_class})
 
 
-class ContactView(View):
-    def get(self, reguest):
-        page_class = 'contact'
-        return render(reguest, 'basic_app/contact.html', {"page_class": page_class})
-
-
 class GuideView(View):
     def get(self, reguest):
         page_class = 'guide'

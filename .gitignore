@@ -16,6 +16,8 @@ media/
 static/
 basic_app/templates
 basic_app/static
+accounts/templates
+accounts/static
 # Ignore virtual environment
 venv/
 
